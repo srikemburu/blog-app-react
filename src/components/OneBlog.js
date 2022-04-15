@@ -39,11 +39,11 @@ export default function OneBlog() {
     </p>
     </div>
 
-const lessContent=<div>
-<p className="extra-content"> 
-     {bdy.slice(1,150)}
-</p>
-</div>
+    const lessContent=<div>
+    <p className="extra-content"> 
+        {bdy.slice(1,150)}
+    </p>
+    </div>
 
     const linkName=readMore?'Read Less << ':'Read More >> '
 

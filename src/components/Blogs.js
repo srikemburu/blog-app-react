@@ -17,6 +17,8 @@ export default function Blogs() {
     },[])
 
     console.log(blogs)
+
+    
    
     const linkName=readMore?'Read Less << ':'Read More >> '
 
