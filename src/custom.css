@@ -1,0 +1,20 @@
+.responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 0.25rem;}
+
+.commentGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 0.25rem;}
+
+/* .read-more-link{
+    color: blueviolet;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    cursor: pointer;
+    }
+.extra-content{
+color: cornflowerblue;
+font-weight: 500;
+} */
